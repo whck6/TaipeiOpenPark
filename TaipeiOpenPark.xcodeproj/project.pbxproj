@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A4247F2E5040D17200DCFCC /* libPods-TaipeiOpenPark.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 69CE297EA63D1956B803F107 /* libPods-TaipeiOpenPark.a */; };
+		EA2F57AD1F4ACD1D007013D1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2F57AC1F4ACD1D007013D1 /* main.m */; };
+		EA2F57B01F4ACD1D007013D1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2F57AF1F4ACD1D007013D1 /* AppDelegate.m */; };
+		EA2F57B31F4ACD1D007013D1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2F57B21F4ACD1D007013D1 /* ViewController.m */; };
+		EA2F57B61F4ACD1D007013D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA2F57B41F4ACD1D007013D1 /* Main.storyboard */; };
+		EA2F57B81F4ACD1D007013D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA2F57B71F4ACD1D007013D1 /* Assets.xcassets */; };
+		EA2F57BB1F4ACD1D007013D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA2F57B91F4ACD1D007013D1 /* LaunchScreen.storyboard */; };
+		EA80DB4B1F4C0479004569A1 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA80DB4A1F4C0479004569A1 /* DetailViewController.m */; };
+		EA80DB511F4C26A5004569A1 /* PhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA80DB501F4C26A5004569A1 /* PhotoViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		216B03B38A0FE62D104AF470 /* Pods-TaipeiOpenPark.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaipeiOpenPark.release.xcconfig"; path = "Pods/Target Support Files/Pods-TaipeiOpenPark/Pods-TaipeiOpenPark.release.xcconfig"; sourceTree = "<group>"; };
+		69CE297EA63D1956B803F107 /* libPods-TaipeiOpenPark.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TaipeiOpenPark.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8919C8EF1AFEFCD95FC51FE /* Pods-TaipeiOpenPark.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaipeiOpenPark.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TaipeiOpenPark/Pods-TaipeiOpenPark.debug.xcconfig"; sourceTree = "<group>"; };
+		EA2F57A81F4ACD1D007013D1 /* TaipeiOpenPark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaipeiOpenPark.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA2F57AC1F4ACD1D007013D1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA2F57AE1F4ACD1D007013D1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EA2F57AF1F4ACD1D007013D1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EA2F57B11F4ACD1D007013D1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EA2F57B21F4ACD1D007013D1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EA2F57B51F4ACD1D007013D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA2F57B71F4ACD1D007013D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA2F57BA1F4ACD1D007013D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA2F57BC1F4ACD1D007013D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA80DB491F4C0479004569A1 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		EA80DB4A1F4C0479004569A1 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		EA80DB4F1F4C26A5004569A1 /* PhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoViewController.h; sourceTree = "<group>"; };
+		EA80DB501F4C26A5004569A1 /* PhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA2F57A51F4ACD1D007013D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A4247F2E5040D17200DCFCC /* libPods-TaipeiOpenPark.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03F47B57041A8FC3114272B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				69CE297EA63D1956B803F107 /* libPods-TaipeiOpenPark.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E96898DB25C0B638EBFB7281 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B8919C8EF1AFEFCD95FC51FE /* Pods-TaipeiOpenPark.debug.xcconfig */,
+				216B03B38A0FE62D104AF470 /* Pods-TaipeiOpenPark.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EA2F579F1F4ACD1D007013D1 = {
+			isa = PBXGroup;
+			children = (
+				EA2F57AA1F4ACD1D007013D1 /* TaipeiOpenPark */,
+				EA2F57A91F4ACD1D007013D1 /* Products */,
+				E96898DB25C0B638EBFB7281 /* Pods */,
+				03F47B57041A8FC3114272B8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EA2F57A91F4ACD1D007013D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA2F57A81F4ACD1D007013D1 /* TaipeiOpenPark.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA2F57AA1F4ACD1D007013D1 /* TaipeiOpenPark */ = {
+			isa = PBXGroup;
+			children = (
+				EA2F57AE1F4ACD1D007013D1 /* AppDelegate.h */,
+				EA2F57AF1F4ACD1D007013D1 /* AppDelegate.m */,
+				EA2F57B11F4ACD1D007013D1 /* ViewController.h */,
+				EA2F57B21F4ACD1D007013D1 /* ViewController.m */,
+				EA2F57B41F4ACD1D007013D1 /* Main.storyboard */,
+				EA2F57B71F4ACD1D007013D1 /* Assets.xcassets */,
+				EA2F57B91F4ACD1D007013D1 /* LaunchScreen.storyboard */,
+				EA2F57BC1F4ACD1D007013D1 /* Info.plist */,
+				EA2F57AB1F4ACD1D007013D1 /* Supporting Files */,
+				EA80DB491F4C0479004569A1 /* DetailViewController.h */,
+				EA80DB4A1F4C0479004569A1 /* DetailViewController.m */,
+				EA80DB4F1F4C26A5004569A1 /* PhotoViewController.h */,
+				EA80DB501F4C26A5004569A1 /* PhotoViewController.m */,
+			);
+			path = TaipeiOpenPark;
+			sourceTree = "<group>";
+		};
+		EA2F57AB1F4ACD1D007013D1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA2F57AC1F4ACD1D007013D1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA2F57A71F4ACD1D007013D1 /* TaipeiOpenPark */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA2F57BF1F4ACD1D007013D1 /* Build configuration list for PBXNativeTarget "TaipeiOpenPark" */;
+			buildPhases = (
+				0BB1A7CE6A70718E81064EF0 /* [CP] Check Pods Manifest.lock */,
+				EA2F57A41F4ACD1D007013D1 /* Sources */,
+				EA2F57A51F4ACD1D007013D1 /* Frameworks */,
+				EA2F57A61F4ACD1D007013D1 /* Resources */,
+				12A7CD983D9127FACECF177E /* [CP] Embed Pods Frameworks */,
+				75152D09524D1AC0E3DF9E42 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TaipeiOpenPark;
+			productName = TaipeiOpenPark;
+			productReference = EA2F57A81F4ACD1D007013D1 /* TaipeiOpenPark.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA2F57A01F4ACD1D007013D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = w;
+				TargetAttributes = {
+					EA2F57A71F4ACD1D007013D1 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = R3PVQ5JB64;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EA2F57A31F4ACD1D007013D1 /* Build configuration list for PBXProject "TaipeiOpenPark" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA2F579F1F4ACD1D007013D1;
+			productRefGroup = EA2F57A91F4ACD1D007013D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA2F57A71F4ACD1D007013D1 /* TaipeiOpenPark */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA2F57A61F4ACD1D007013D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA2F57BB1F4ACD1D007013D1 /* LaunchScreen.storyboard in Resources */,
+				EA2F57B81F4ACD1D007013D1 /* Assets.xcassets in Resources */,
+				EA2F57B61F4ACD1D007013D1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0BB1A7CE6A70718E81064EF0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		12A7CD983D9127FACECF177E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TaipeiOpenPark/Pods-TaipeiOpenPark-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75152D09524D1AC0E3DF9E42 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TaipeiOpenPark/Pods-TaipeiOpenPark-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA2F57A41F4ACD1D007013D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA80DB4B1F4C0479004569A1 /* DetailViewController.m in Sources */,
+				EA2F57B31F4ACD1D007013D1 /* ViewController.m in Sources */,
+				EA2F57B01F4ACD1D007013D1 /* AppDelegate.m in Sources */,
+				EA80DB511F4C26A5004569A1 /* PhotoViewController.m in Sources */,
+				EA2F57AD1F4ACD1D007013D1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EA2F57B41F4ACD1D007013D1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA2F57B51F4ACD1D007013D1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA2F57B91F4ACD1D007013D1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA2F57BA1F4ACD1D007013D1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA2F57BD1F4ACD1D007013D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EA2F57BE1F4ACD1D007013D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA2F57C01F4ACD1D007013D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8919C8EF1AFEFCD95FC51FE /* Pods-TaipeiOpenPark.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = R3PVQ5JB64;
+				INFOPLIST_FILE = TaipeiOpenPark/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.w.TaipeiOpenPark;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EA2F57C11F4ACD1D007013D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 216B03B38A0FE62D104AF470 /* Pods-TaipeiOpenPark.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = R3PVQ5JB64;
+				INFOPLIST_FILE = TaipeiOpenPark/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.w.TaipeiOpenPark;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA2F57A31F4ACD1D007013D1 /* Build configuration list for PBXProject "TaipeiOpenPark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA2F57BD1F4ACD1D007013D1 /* Debug */,
+				EA2F57BE1F4ACD1D007013D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA2F57BF1F4ACD1D007013D1 /* Build configuration list for PBXNativeTarget "TaipeiOpenPark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA2F57C01F4ACD1D007013D1 /* Debug */,
+				EA2F57C11F4ACD1D007013D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA2F57A01F4ACD1D007013D1 /* Project object */;
+}
