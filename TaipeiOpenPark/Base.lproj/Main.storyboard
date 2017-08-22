@@ -44,32 +44,32 @@
                                 <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="dataCell" id="O8d-W9-mks">
-                                        <rect key="frame" x="0.0" y="55.333333333333336" width="414" height="420"/>
+                                        <rect key="frame" x="0.0" y="55.5" width="414" height="420"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="O8d-W9-mks" id="tJs-6L-8d1">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="419.66666666666669"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="420"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" tag="999" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="default" translatesAutoresizingMaskIntoConstraints="NO" id="OEy-z2-L9P">
-                                                    <rect key="frame" x="0.0" y="0.0" width="320" height="240"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="414" height="310.66666666666669"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" secondItem="OEy-z2-L9P" secondAttribute="height" multiplier="4:3" id="9fv-Ac-Gvz"/>
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" tag="998" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="二二八和平公園" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="enb-Wn-uGQ">
-                                                    <rect key="frame" x="24" y="248" width="121.66666666666666" height="21"/>
+                                                    <rect key="frame" x="24" y="318.66666666666669" width="121.66666666666666" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" red="0.20000000300000001" green="0.20000000300000001" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" tag="997" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="國立臺灣博物館" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PYK-xB-Gqt">
-                                                    <rect key="frame" x="24" y="277" width="156.66666666666666" height="27"/>
+                                                    <rect key="frame" x="24" y="347.66666666666669" width="156.66666666666666" height="27"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                                     <color key="textColor" red="0.20000000300000001" green="0.20000000300000001" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" tag="996" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mze-Cu-gDa">
-                                                    <rect key="frame" x="24" y="312" width="280" height="83.666666666666686"/>
+                                                    <rect key="frame" x="24" y="382.66666666666669" width="374" height="13"/>
                                                     <string key="text">國立臺灣博物館成立於1908年，清廷時期原址為天后宮，日據時期先後做為日軍傷兵收容所、臺北辦務署、臺灣總督府醫事學校宿舍，後因廟宇破舊，並於1905年拆除，在原地興工建設希臘多利亞式博物館，現天后宮柱腳現擺在公園楓香林內。國立臺灣博物館是臺灣歷史最悠久的博物館，當時的日本和西方國家，對於博物館的想像經常是從殖產興業的展示作為出發點，這也是為何國立臺灣博物館一開始是由總督府工商部門或殖產部門負責的背景。1908年臺博館前身「臺灣總督府民政部殖產局附屬博物館」的成立，是為了慶祝本島交通大動脈縱貫鐵路之南北全線通車，做為一系列空前盛大的通車儀式活動之一，準備透過展覽大力宣傳與介紹臺灣的建設。這部份的工作就交給殖產局，計畫展出臺灣本島各項產業的縮影，讓來賓對臺灣的概況能夠一目瞭然。</string>
                                                     <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                     <color key="textColor" red="0.20000000300000001" green="0.20000000300000001" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -294,13 +294,13 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Y6g-nh-st3">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                        <rect key="frame" x="0.0" y="-64" width="414" height="736"/>
                                     </imageView>
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="Y6g-nh-st3" firstAttribute="leading" secondItem="tar-Pc-QRN" secondAttribute="leading" id="CQG-s7-gmi"/>
+                                    <constraint firstItem="Y6g-nh-st3" firstAttribute="top" secondItem="tar-Pc-QRN" secondAttribute="top" constant="-64" id="G2H-eg-NMe"/>
                                     <constraint firstAttribute="trailing" secondItem="Y6g-nh-st3" secondAttribute="trailing" id="YkR-Km-PEZ"/>
-                                    <constraint firstItem="Y6g-nh-st3" firstAttribute="height" secondItem="tar-Pc-QRN" secondAttribute="height" id="jfl-jJ-dlN"/>
                                     <constraint firstAttribute="bottom" secondItem="Y6g-nh-st3" secondAttribute="bottom" id="rqr-K3-ztl"/>
                                 </constraints>
                                 <connections>
@@ -310,13 +310,12 @@
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="tar-Pc-QRN" firstAttribute="width" secondItem="9Jt-O8-en6" secondAttribute="width" id="7x7-x0-wD2"/>
-                            <constraint firstItem="Y6g-nh-st3" firstAttribute="width" secondItem="9Jt-O8-en6" secondAttribute="width" id="AtZ-Pv-wce"/>
-                            <constraint firstItem="tar-Pc-QRN" firstAttribute="centerX" secondItem="9Jt-O8-en6" secondAttribute="centerX" id="DeW-6P-meA"/>
-                            <constraint firstItem="Y6g-nh-st3" firstAttribute="centerY" secondItem="9Jt-O8-en6" secondAttribute="centerY" id="b49-zA-Xnf"/>
-                            <constraint firstItem="Y6g-nh-st3" firstAttribute="centerX" secondItem="9Jt-O8-en6" secondAttribute="centerX" id="g7h-TO-cQY"/>
-                            <constraint firstItem="tar-Pc-QRN" firstAttribute="centerY" secondItem="9Jt-O8-en6" secondAttribute="centerY" id="p1w-ht-Fpa"/>
-                            <constraint firstItem="tar-Pc-QRN" firstAttribute="height" secondItem="9Jt-O8-en6" secondAttribute="height" id="saV-LQ-Z1x"/>
+                            <constraint firstItem="tar-Pc-QRN" firstAttribute="height" secondItem="9Jt-O8-en6" secondAttribute="height" id="1lC-H0-TuR"/>
+                            <constraint firstItem="tar-Pc-QRN" firstAttribute="width" secondItem="9Jt-O8-en6" secondAttribute="width" id="6Wq-XY-irA"/>
+                            <constraint firstItem="tar-Pc-QRN" firstAttribute="centerX" secondItem="9Jt-O8-en6" secondAttribute="centerX" id="Ik5-Ez-4YL"/>
+                            <constraint firstItem="Y6g-nh-st3" firstAttribute="height" secondItem="9Jt-O8-en6" secondAttribute="height" id="MZw-Mi-Xkv"/>
+                            <constraint firstItem="Y6g-nh-st3" firstAttribute="width" secondItem="9Jt-O8-en6" secondAttribute="width" id="Mgf-3I-IQj"/>
+                            <constraint firstItem="tar-Pc-QRN" firstAttribute="centerY" secondItem="9Jt-O8-en6" secondAttribute="centerY" id="aS6-PZ-Kri"/>
                         </constraints>
                     </view>
                     <connections>
